@@ -4,9 +4,14 @@
     background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 
     .login-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         width: 400px;
-        height: 100%;
-        margin: 0 auto;
+        height: 450px;
+        margin: auto;
         border-radius: 10px;
         background-color: white;
 
@@ -22,6 +27,17 @@
 
             .login-input {
                 margin: 7px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 8px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
             }
 
             .btn-login {
@@ -38,6 +54,8 @@
 
             .forgot-password {
                 font-size: 12px;
+                cursor: pointer;
+                color: #1877f2;
             }
 
             .social-login {
@@ -46,13 +64,13 @@
                 margin-top: 12px;
 
                 .google {
-                    font-size: 36px;
+                    font-size: 40px;
                     margin-right: 12px;
                     color: #DB4437;
                 }
 
                 .facebook {
-                    font-size: 36px;
+                    font-size: 40px;
                     color: #4267B2;
                 }
             }
