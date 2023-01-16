@@ -59,11 +59,34 @@
 
             .language-vi {
                 cursor: pointer;
+                opacity: 0.2;
+                font-weight: 700;
+                font-size: 16px;
+
+                &.active {
+                    color: rgb(254, 44, 85);
+                    opacity: 1;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
             }
 
             .language-en {
                 margin-left: 10px;
                 cursor: pointer;
+                opacity: 0.2;
+                font-weight: 700;
+                font-size: 16px;
+
+                &.active {
+                    color: rgb(254, 44, 85);
+                    opacity: 1;
+                }
+                &:hover {
+                    opacity: 1;
+                }
             }
         }
     }
