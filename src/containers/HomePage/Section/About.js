@@ -14,9 +14,9 @@ class About extends Component {
                             height="321px"
                             src="https://www.youtube.com/embed/4B3fzIkMCn8"
                             title="meeting valorant e-daters"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
+                            allowFullScreen
                         ></iframe>
                     </div>
                     <div className="content-right">
