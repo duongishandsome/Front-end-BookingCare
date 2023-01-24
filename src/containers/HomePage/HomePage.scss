@@ -92,6 +92,10 @@
 }
 
 // reset slick slider  css
+.slick-disabled {
+    display: none !important;
+}
+
 .slick-slider {
     position: relative;
 
