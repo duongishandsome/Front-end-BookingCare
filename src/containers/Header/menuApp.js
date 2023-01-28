@@ -71,6 +71,7 @@ export const doctorMenu = [
                 //quản lý kế hoạch khám bệnh của bác sĩ
 
                 name: 'menu.doctor.manage-schedule',
+                link: '/doctor/manage-schedule',
             },
         ],
     },
