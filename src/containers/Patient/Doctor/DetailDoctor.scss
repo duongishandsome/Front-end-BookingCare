@@ -32,14 +32,13 @@
         display: flex;
         margin: 0 150px;
         height: 200px;
-        border: 1px solid red;
 
         .content-left {
-            width: 50%;
+            width: 55%;
         }
 
         .content-right {
-            width: 50%;
+            flex: 1;
         }
     }
 
