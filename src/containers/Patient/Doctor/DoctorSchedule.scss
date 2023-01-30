@@ -33,21 +33,42 @@
         }
 
         .time-content {
-            display: flex;
-            gap: 4px;
-            flex-wrap: wrap;
-            button {
-                background-color: #fff8ae;
-                padding: 10px 15px;
-                outline: none;
-                border: none;
-                color: #333;
-                font-weight: bold;
-                min-width: 138px;
+            .time-content-bnts {
+                display: flex;
+                gap: 4px;
+                flex-wrap: wrap;
 
-                &:hover {
-                    box-shadow: 0px 0px 0px 2px #33b0e3 inset;
+                button {
+                    background-color: #fff8ae;
+                    padding: 10px 7px;
+                    outline: none;
+                    border: none;
+                    color: #333;
+                    font-weight: bold;
+
+                    &:hover {
+                        box-shadow: 0px 0px 0px 2px #33b0e3 inset;
+                    }
                 }
+
+                .btn-vi {
+                    min-width: 138px;
+                }
+                .btn-en {
+                    min-width: 148px;
+                }
+            }
+
+            .no-schedule {
+                font-size: 16px;
+                color: rgb(255, 78, 78);
+                font-style: italic;
+            }
+
+            .book-free {
+                font-size: 14px;
+                color: #333;
+                margin-top: 10px;
             }
         }
     }
