@@ -35,10 +35,15 @@
                 text-transform: uppercase;
                 padding-bottom: 6px;
             }
-            span {
-                cursor: pointer;
+            .currency {
+                margin: 0 4px;
+                color: #666;
                 font-size: 14px;
+            }
+
+            .show-detail {
                 color: #45c3d2;
+                cursor: pointer;
             }
         }
         .title-price {
@@ -53,9 +58,10 @@
             padding: 4px;
             background-color: #f8f8f8;
             .price {
-                font-size: 15px;
                 color: #333;
                 .right {
+                    font-size: 13px;
+
                     float: right;
                 }
             }
