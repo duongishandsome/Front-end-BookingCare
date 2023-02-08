@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import './BookingModal.scss';
-import { LANGUAGES } from '../../../utils';
 import { FormattedMessage } from 'react-intl';
 
 class BookingModal extends Component {
