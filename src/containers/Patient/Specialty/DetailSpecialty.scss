@@ -1,0 +1,27 @@
+.detail-specialty-container {
+    width: 1170px;
+    margin: 0 auto;
+    .description-specialty {
+        height: 200px;
+    }
+
+    .each-doctor {
+        display: flex;
+        background-color: #fff;
+        box-shadow: 0 1px 6px rgba(33, 34, 37, 0.28);
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        .dt-content-left {
+            width: 55%;
+        }
+
+        .dt-content-right {
+            flex: 1;
+            .doctor-extra-infor-container {
+                padding-left: 0 !important;
+                border-left: none !important;
+            }
+        }
+    }
+}
