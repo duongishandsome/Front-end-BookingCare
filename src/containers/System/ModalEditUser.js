@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Input, Label, Form, FormGroup } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
 import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import _ from 'lodash';
@@ -126,7 +126,7 @@ class ModalEditUser extends Component {
                 <ModalFooter>
                     <Button color="primary" className="px-3" onClick={() => this.handleSaveUser()}>
                         Save
-                    </Button>{' '}
+                    </Button>
                     <Button color="secondary" className="px-3" onClick={() => this.toggle()}>
                         Close
                     </Button>
