@@ -32,4 +32,4 @@ Tài khoản doctor:
 
 - Muốn trải nghiệm các chức năng => vào phần admin để tạo thời gian khám và các thông tin
 - Đặt lịch khám ghi đúng gmail để có thể nhận mail
-- Cần một chut thời gian để load dữ liệu
+- Cần một chút thời gian để load dữ liệu
